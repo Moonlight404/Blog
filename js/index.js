@@ -4,21 +4,23 @@ const app = new Vue({
         menu: false,
         screen: 0,
         system: 0,
-        dark: false
+        dark: "0"
     },
     mounted(){
         setInterval(() => {
             this.screen = screen.width;
             this.verificarTela()
         }, 500);
+        this.dark = localStorage.getItem("dark")
     },
     methods:{
         darkMode(){
-            if(this.dark){
-                this.dark = false
+            if(this.dark === "0"){
+                this.dark = "1"
             } else{
-                this.dark = true
+                this.dark = "0"
             }
+            localStorage.setItem("dark", this.dark)
         },
         openMenu(){
             if(this.menu){

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div id="app" :class="{dark : dark}">
+    <div id="app" :class="{dark : dark === '1'}">
     <div class="header">    
         <h1>Japan</h1>
         <p>Blog sobre Japão</p>
@@ -29,7 +29,7 @@
         <a>Usuarios</a>
         <a class="alinha-direita">Login</a>
         <a class="alinha-direita">Registro</a>
-        <a class="alinha-direita" :class="{ativo : dark}" @click="darkMode">
+        <a class="alinha-direita" :class="{ativo : dark === '1'}" @click="darkMode">
             <i class="fas fa-adjust"></i>
         </a>
         </div>
