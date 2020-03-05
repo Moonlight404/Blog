@@ -13,17 +13,17 @@ h1,h2,h3{
 }
 
 .header{
-    background-color: #fff;
     text-align: center;
     padding: 30px;
+    height: 300px;
+    position: fixed;
     background-image: url('https://digitalblasphemy.com/graphics/fb/sakura2k13night1fb.jpg');
     background-size: cover;
-    position: fixed;
-    width: 100%;
+    left: 0px;
     top: 0px;
-    left: -10px;
-    height: 240px;
+    width: 100%;
 }
+
 
 .header p{
     color: #fff;
@@ -38,6 +38,7 @@ h1,h2,h3{
 .nav{
     overflow: hidden;
     background-color: #333;
+    border-radius: 4px;
 }
 
 .nav a{
@@ -75,7 +76,6 @@ h1,h2,h3{
 .card{
     background: white;
     padding: 10px;
-    border-radius: 2px;
     transition: 0.4s;
     cursor: pointer;
 }
@@ -83,6 +83,10 @@ h1,h2,h3{
 
 .card,.nav,.header,.footer{
     box-shadow: -2px 1px 2px rgba(0,0,0,.10);
+}
+
+.leftcol,.rightcol{
+    border-radius: 10px;
 }
 
 .fakeimg{
