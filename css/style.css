@@ -21,7 +21,8 @@ h1,h2,h3{
     position: fixed;
     width: 100%;
     top: 0px;
-    height: 100%;
+    left: -10px;
+    height: 240px;
 }
 
 .header p{
