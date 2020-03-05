@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+h1,h2,h3{
+    color: #f0307d;
+}
+
+.header{
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    background-image: url('https://digitalblasphemy.com/graphics/fb/sakura2k13night1fb.jpg');
+    background-size: cover;
+}
+
+.header p{
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.40);
+}
+
+.header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ccc;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    background: #f0307d;
+    color: #fff;
+}
+
+.nav .ativo{
+    background: #f0307d;
+    color: #fff;
+}
+
+.nav .alinha-direita{
+    float: right;
+    right: 0px;
+}
+
+.leftcol{
+    float: left;
+    width: 75%;
+    padding: 5px;
+}
+
+.card{
+    background: white;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.card,.nav,.header,.footer{
+    box-shadow: -2px 1px 2px rgba(0,0,0,.10);
+}
+
+.fakeimg{
+    background-size: cover;
+    width: 100%;
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rightcol{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color: #ccc;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;;
+}
+
+.social a{
+    color: #f0307d;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.social a:hover{
+    background: #f0307d;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px){
+    .leftcol, .rightcol{
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .nav a{
+        width: 100%;
+        display: block; 
+    }
+}
+
+img{
+    object-fit: cover;
+}
