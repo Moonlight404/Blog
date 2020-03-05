@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
 </head>
 <body>
     <div id="app" :class="{dark : dark === '1'}">
@@ -39,9 +40,9 @@
         <div class="card">
             <h2>Está chegando a época do Sakura no Brasil!</h2>
             <h5>kaway404, publicado em 04 de março de 2020</h5>
-            <div class="fakeimg" style="
+            <a href="https://momentocoaching.files.wordpress.com/2017/07/sakura-flor-de-cerejeira-momentocoaching-antuak.jpg?w=840" data-lightbox="roadtrip"><div class="fakeimg" style="
             height: 200px; 
-            background-image: url('https://momentocoaching.files.wordpress.com/2017/07/sakura-flor-de-cerejeira-momentocoaching-antuak.jpg?w=840');"></div>
+            background-image: url('https://momentocoaching.files.wordpress.com/2017/07/sakura-flor-de-cerejeira-momentocoaching-antuak.jpg?w=840');"></div></a>
             <p>
                 Um excelente momento para praticar a apreciação da beleza e lembrar da importância de vivenciar a vida de forma plena, no Aqui e Agora.
             </p>
@@ -52,8 +53,8 @@
         <div class="card">
             <h2>Lenda do Sakura</h2>
             <h5>Autor, publicado em 04 de março de 2020</h5>
-            <div class="fakeimg" style="height: 200px;
-            background-image: url(https://escapenewscorpau.files.wordpress.com/2019/05/japan_mt-fuji_istock-1130832253.jpg?w=930&h=400&crop=1);"></div>
+            <a href="https://escapenewscorpau.files.wordpress.com/2019/05/japan_mt-fuji_istock-1130832253.jpg?w=930&h=400&crop=1" data-lightbox="roadtrip"><div class="fakeimg" style="height: 200px;
+            background-image: url(https://escapenewscorpau.files.wordpress.com/2019/05/japan_mt-fuji_istock-1130832253.jpg?w=930&h=400&crop=1);"></div></a>
             <p>
                 Conta a lenda que uma princesa desceu dos céus e aterrissou em uma cerejeira, nas proximidades do Monte Fuji, e teria se transformado na flor da cerejeira. Acredita-se então que o nome sakura, na verdade, é derivado do nome da princesa Konohana Sauna Hímen, que significa “a princesa das árvores das flores abertas”.
             </p>
@@ -66,9 +67,10 @@
     <div class="rightcol">
         <div class="card">
             <h2>Quem sou eu?</h2>
+            <a href="https://alcanceirati.com.br/wp-content/uploads/2018/07/quem-sou-eu.png" data-lightbox="roadtrip">
             <div class="fakeimg" style="height: 100px;
             background-image: url(https://alcanceirati.com.br/wp-content/uploads/2018/07/quem-sou-eu.png);"></div>
-            <p>Sou apenas um cara em busca da felicidade!</p>
+            <p>Sou apenas um cara em busca da felicidade!</p></a>
         </div>
         <div class="card">
             <h3>
@@ -99,5 +101,6 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
