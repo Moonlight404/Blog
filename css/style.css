@@ -137,7 +137,10 @@ h1,h2,h3{
 
 .pc{
     display: block;
-    animation: show 0.4s;
+}
+
+.leftcol,.rightcol,.nav{
+    animation: show 0.5s;
 }
 
 @keyframes show{
