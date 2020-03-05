@@ -20,6 +20,7 @@ h1,h2,h3{
     position: fixed;
     width: 100%;
     top: 0px;
+    height: 100%;
 }
 
 .header p{
@@ -44,15 +45,17 @@ h1,h2,h3{
     text-align: center;
     padding: 14px 16px;
     cursor: pointer;
-}
+}   
 
 .nav a:hover{
     background: #f0307d;
+    background: linear-gradient(90deg, rgba(240,48,125,1) 0%, rgba(240,48,149,1) 35%, rgba(240,48,160,1) 100%);
     color: #fff;
 }
 
 .nav .ativo{
     background: #f0307d;
+    background: linear-gradient(90deg, rgba(240,48,125,1) 0%, rgba(240,48,149,1) 35%, rgba(240,48,160,1) 100%);
     color: #fff;
 }
 
