@@ -5,7 +5,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
-    background-color: #ddd;
+    background-color: #d1d1d1;
 }
 
 h1,h2,h3{
@@ -69,7 +69,10 @@ h1,h2,h3{
     background: white;
     padding: 10px;
     border-radius: 2px;
+    transition: 0.4s;
+    cursor: pointer;
 }
+
 
 .card,.nav,.header,.footer{
     box-shadow: -2px 1px 2px rgba(0,0,0,.10);
