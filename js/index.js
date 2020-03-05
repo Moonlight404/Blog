@@ -3,7 +3,8 @@ const app = new Vue({
     data: {
         menu: false,
         screen: 0,
-        system: 0
+        system: 0,
+        dark: false
     },
     mounted(){
         setInterval(() => {
@@ -12,6 +13,13 @@ const app = new Vue({
         }, 500);
     },
     methods:{
+        darkMode(){
+            if(this.dark){
+                this.dark = false
+            } else{
+                this.dark = true
+            }
+        },
         openMenu(){
             if(this.menu){
                 this.menu = false

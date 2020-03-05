@@ -143,6 +143,30 @@ h1,h2,h3{
     animation: show 0.5s;
 }
 
+.dark .card{
+    background: #151515;
+}
+
+.dark h2{
+    color: #fff !important;
+}
+
+.dark h3{
+    color: #fff !important;
+}
+
+.dark p{
+    color: #fff !important;
+}
+
+.dark a{
+    color: #fff !important;
+}
+
+.dark h5{
+    color: #fff !important;
+}
+
 @keyframes show{
     0%{
         transform: scale(0.5);
@@ -157,7 +181,7 @@ h1,h2,h3{
         width: 100%;
         padding: 0px;
     }
-    
+
     .nav a{
         width: 100%;
         display: block; 
