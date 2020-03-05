@@ -135,6 +135,20 @@ h1,h2,h3{
     top: 190px;
 }
 
+.pc{
+    display: block;
+    animation: show 0.4s;
+}
+
+@keyframes show{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 @media screen and (max-width: 800px){
     .leftcol, .rightcol{
         width: 100%;
@@ -147,6 +161,7 @@ h1,h2,h3{
         width: 100%;
         display: block; 
     }
+
 }
 
 img{

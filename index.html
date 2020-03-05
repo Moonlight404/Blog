@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div id="app">
     <div class="header">    
         <h1>Japan</h1>
         <p>Blog sobre Japão</p>
@@ -18,10 +19,17 @@
 
     <div class="main">
     <div class="nav">
+        <div class="mobile" v-if="system === 1">
+                <a :class="{ativo : menu}" @click="openMenu">
+                        <i class="fas fa-bars"></i>
+                </a>
+        </div>
+        <div class="pc" v-if="menu | system === 0">
         <a class="ativo">Home</a>
         <a>Usuarios</a>
         <a class="alinha-direita">Login</a>
         <a class="alinha-direita">Registro</a>
+        </div>
     </div>
 
     <div class="leftcol">
@@ -85,6 +93,8 @@
         </h2>
     </div>
     </div>
-
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
