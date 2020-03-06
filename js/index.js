@@ -4,7 +4,13 @@ const app = new Vue({
         menu: false,
         screen: 0,
         system: 0,
-        dark: "0"
+        dark: "0",
+        galeria: [
+            "https://www.urbanarts.com.br/imagens/produtos/156199/0/Ampliada/flor-sakura.jpg",
+            "https://http2.mlstatic.com/10-sementes-de-lindas-flores-sakura-flor-de-cerejeira-japo-D_NQ_NP_642015-MLB25125600630_102016-F.jpg",
+            "https://2.bp.blogspot.com/-j11PpBudj44/W1NQZAMfqRI/AAAAAAAAIsU/NhJGE9G6CqUAHEbjQjZ2evWgg2o1I8N8wCLcBGAs/s1600/cerejeiras_01.jpg",
+            "https://www.anotaai.blog.br/wp-content/uploads/Flor-de-cerejeira-1.jpg"
+        ]
     },
     mounted(){
         setInterval(() => {
